@@ -5,7 +5,6 @@
 // - Posteriormente, obtener el total de productos vendidos por todos los objetos 
 // (utilizar Object.values)
 
-
 const objetos=[
     {
         manzanas:3,
@@ -35,18 +34,34 @@ objetos.forEach(objeto=>{
         }
     })
 })
-console.log(listaNueva)
+console.log('lista de productos totales: \n'+listaNueva)
+console.log('\n')
+
+
+
 
 //2
     //no entendi
-
 // si hay que contar x objeto la cantidad de produtos:
+console.log('cantidad de produtos x objeto: ')
 objetos.forEach(objeto=>{
-    
     let cantidadPorObjetoArray = Object.values(objeto)
     console.log(cantidadPorObjetoArray)
     let cantidadPorObjeto = cantidadPorObjetoArray.reduce((acumulador, numero) => acumulador+numero,0)
-
     console.log('el objeto tiene '+cantidadPorObjeto+' productos')
-    
 })
+
+
+console.log('\n')
+// si hay que contar la cantidad de produtos totales entre los 2 objetos:
+function ayudameLoco (){
+    console.log('cantidad de produtos totales entre los 2 objetos: ')
+    let cantidadTotal=0
+    for(let y=0;y<2;y++){
+        let cantidadPorObjetoArray = Object.values(objetos[y])
+        let cantidadPorObjeto = cantidadPorObjetoArray.reduce((acumulador, numero) => acumulador+numero,0)
+        cantidadTotal=cantidadPorObjeto+cantidadTotal
+    }
+    console.log('cantidad total de objetos: '+cantidadTotal)
+}
+ayudameLoco()
