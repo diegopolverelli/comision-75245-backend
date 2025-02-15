@@ -1,0 +1,42 @@
+[
+	{
+		"id": 1,
+		"nombre": "Matilde",
+		"edad": 31
+	},
+	{
+		"id": 2,
+		"nombre": "Juan Carlos",
+		"edad": 23
+	},
+	{
+		"id": 3,
+		"nombre": "Diego",
+		"edad": 46
+	},
+	{
+		"id": 4,
+		"nombre": "Romina",
+		"edad": 39
+	},
+	{
+		"id": 5,
+		"nombre": "Luisa",
+		"edad": 28
+	},
+	{
+		"id": 6,
+		"nombre": "Diego",
+		"edad": 46
+	},
+	{
+		"id": 7,
+		"nombre": "Romina",
+		"edad": 39
+	},
+	{
+		"id": 8,
+		"nombre": "Luisa",
+		"edad": 28
+	}
+]
